@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Author: Christen Monroe
+Date: 12/07/2022
+File: search.html
+Purpose: Solas Timesheet search page -->
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+	<title>Solas Timesheet Search</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="entry.html">Timesheet Entry</a></li>
+                    <li><a href="search.html">Timesheet Search</a></li>
+                    <li><a href="css/timesheet-report.php">Timesheet Report</a></li>     
+            </ul>
+            </div>
+    </nav>
+</header>
+<main id="page-container">
+<section id="form-container">
+    <h1>Search Timesheet Database</h1>
+    <p>Please your Employee Id Number to search the database for previous reports.</p>
+<form class="solas-container" action="css/timeSearch.php" method="post">
+    <label for="employeeId">Employee Id</label><br>
+  <input type="text" id="employeeId" name="employeeId"><br>
+  <input type="submit" value="Submit" class="idsearch">
+</form>
+</section>
+</main>
+</body>
+</html>

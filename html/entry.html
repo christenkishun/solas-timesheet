@@ -1,0 +1,46 @@
+<!-- Author: Christen Monroe
+Date: 12/07/2022
+File: entry.html
+Purpose: Solas Timesheet Entry Form page
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../html/css/styles.css">
+	<title>Solas Timesheet Hub</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <nav class="nav">
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="entry.html">Timesheet Entry</a></li>
+                <li><a href="search.html">Timesheet Search</a></li>
+                <li><a href="css/timesheet-report.php">Timesheet Report</a></li>       
+        </ul>
+        </div>
+</nav>
+</header>
+<main id="page-container">
+<section id="form-container">
+    <h1>Timesheet Entry</h1>
+    <p>Please enter your Solas Employee Id number and the number of hours worked. When finished, hit submit.</p>
+    <form class="solas-container" action="css/timeEntry.php" method="post">
+        <label for="employeeID">Employee Id</label><br>
+      <input type="number" id="employeeID" name="employeeID"><br>
+      <label for="hoursWorked">Hours Worked</label><br>
+      <input type="number" id="hoursWorked" name="hoursWorked"><br>
+      <input type="submit" value="Submit" class="idsearch">
+      </form>
+</section>
+</main>
+</body>
+</html>

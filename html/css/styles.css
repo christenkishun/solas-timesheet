@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Vazirmatn', sans-serif;
+    background-color: #EABE9D;
+    line-height: 1;
+}
+h1, h2, h3{
+    font-family: 'Space Mono', monospace;
+    font-family: 'Vazirmatn', sans-serif;
+    text-align: center;
+    background-color: #4F5E5D;
+    line-height: 2rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 10px 0 0 15px;
+  }
+  p{
+    margin: 20px;
+    text-align: center;
+  }
+  ol, ul {
+      list-style: none;
+  }
+/*Nav styling*/
+nav{
+    overflow: hidden;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+nav a{
+    float: left;
+    display: block;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;   
+}
+/*Page styling*/
+#page-container{
+    position: relative;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+#form-container{
+    align-self: center;
+    width: 650px;
+    background: #f5f5f5;
+    box-shadow: 0 10px 20px rgba(0,0,0,.3);
+    overflow: hidden;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 2;
+}
+#form-container h1{
+    text-transform: uppercase; 
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: .1rem;
+}
+#form-container p{
+    text-transform: uppercase; 
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: .07rem;
+    margin-top: 30px;
+    line-height: 1.5rem;
+}
+.container-logo{
+    filter: drop-shadow(2px 2px 4px rgba(0,0,0,.3));
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 30%;
+}
+.solas-container{
+    margin: 20px 0;
+  }
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+.entry{
+    display: inline-block;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+  }
+  .search{
+    display: inline-block;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+  }
+  .idsearch{
+    display: inline-block;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+    border: none;
+  }
+  input{
+    display: inline-block;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: rgb(54, 54, 54);
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 40px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: .1rem solid #0F6488;
+  }
+  label{
+    display: inline-block;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: rgb(54, 54, 54);
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  .idsearch{
+    display: inline-block;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #f5f5f5;
+    text-align: center;
+    margin-top: 30px;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #0F6488;
+    border-radius: 10px;
+  }
+  table{
+    position: relative;
+    align-self: center;
+    justify-content: center;
+    width: 450px;
+    background: #f5f5f5;
+    box-shadow: 0 10px 20px rgba(0,0,0,.3);
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    z-index: 2;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  th{
+    background-color: #20202E;
+    color: #f5f5f5;
+    padding: 10px;
+    line-height: 1.2rem;
+    font-weight: 600;
+    font-style: italic;
+    border: 2px solid #0F6488;
+  }
+  td{
+    background-color: #f5f5f5;
+    color: #0F6488;
+    padding: 10px;
+    line-height: 1.2rem;
+    border: 2px solid #0F6488;
+  }
